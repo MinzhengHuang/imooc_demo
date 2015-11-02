@@ -2,11 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/huangminzheng/learn_and_work/hmz_github/imooc_demo/imooc/libs/android-support-v4.jar"
+        jar="/Users/huangminzheng/learn_and_work/hmz_github/imooc_demo/imooc/libs/nineoldandroids-2.4.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
-        <dex dex="/Users/huangminzheng/learn_and_work/hmz_github/imooc_demo/imooc/build/intermediates/pre-dexed/debug/android-support-v4-83c7817ef3d25c5fc7255abc85d22ca04b5cb6df.jar" />
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/huangminzheng/learn_and_work/hmz_github/imooc_demo/imooc/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-fd9517afbe8f4a82a7efac927c571b84255bdb26.jar" />
+    </item>
+    <item
+        jar="/Users/huangminzheng/learn_and_work/hmz_github/imooc_demo/imooc/libs/gson-2.2.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="126d1ea978aa87b87c90f32beac4dc966a318982">
+        <dex dex="/Users/huangminzheng/learn_and_work/hmz_github/imooc_demo/imooc/build/intermediates/pre-dexed/debug/gson-2.2.3-0891f4de6d4b5d5f1bd11f85ba98721e49bff2c8.jar" />
     </item>
 
 </items>

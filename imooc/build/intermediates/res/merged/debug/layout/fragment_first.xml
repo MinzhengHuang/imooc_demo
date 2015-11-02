@@ -2,21 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#66ff66" >
+    android:background="#66ff66"
+    android:orientation="vertical" >
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="第一页"
         android:gravity="center"
-        android:textSize="20sp"
-        android:padding="5dp"/>
-    <Button
-        android:id="@+id/btn_Contacts"
-        style="@style/btn_style"
-        android:text="Contacts" />
-    
+        android:padding="5dp"
+        android:text="第一页"
+        android:textSize="20sp" />
 
-</LinearLayout>
-<!-- From: file:/Users/huangminzheng/learn_and_work/hmz_github/imooc_demo/imooc/res/layout/fragment_first.xml -->
+    <Button
+        android:id="@+id/btn_treeview"
+        style="@style/btn_style"
+        android:text="TreeView" />
+
+    <Button
+        android:id="@+id/btn_QQSlidingMenu"
+        style="@style/btn_style"
+        android:text="QQSlidingMenu" />
+    <Button
+        android:id="@+id/btn_Mooo"
+        style="@style/btn_style"
+        android:text="Mooo" />
+
+</LinearLayout><!-- From: file:/Users/huangminzheng/learn_and_work/hmz_github/imooc_demo/imooc/res/layout/fragment_first.xml -->

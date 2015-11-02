@@ -4,6 +4,7 @@
     <eat-comment/>
     <attr format="color" name="color"/>
     <attr format="reference" name="icon"/>
+    <attr format="dimension" name="rightPadding"/>
     <attr format="string" name="text"/>
     <attr format="dimension" name="text_size"/>
     <!-- From: file:/Users/huangminzheng/learn_and_work/hmz_github/imooc_demo/imooc/res/values/color.xml -->
@@ -11,6 +12,7 @@
     <color name="background_tab_pressed">#6633B5E5</color>
     <color name="white">#ffffff</color>
     <declare-styleable name="ChangeColorIconWithText"><attr name="icon"/><attr name="color"/><attr name="text"/><attr name="text_size"/></declare-styleable>
+    <declare-styleable name="QQSlidingMenu"><attr name="rightPadding"/></declare-styleable>
     <!-- From: file:/Users/huangminzheng/learn_and_work/hmz_github/imooc_demo/imooc/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
