@@ -79,27 +79,33 @@ containing a value of this type.
         public static final int tab_find_frd_normal=0x7f02000e;
         public static final int tab_settings_normal=0x7f02000f;
         public static final int tab_weixin_normal=0x7f020010;
+        public static final int tree_ec=0x7f020011;
+        public static final int tree_ex=0x7f020012;
     }
     public static final class id {
-        public static final int action_add_friend=0x7f0a0009;
-        public static final int action_feedback=0x7f0a000b;
-        public static final int action_group_chat=0x7f0a0008;
-        public static final int action_scan=0x7f0a000a;
-        public static final int action_search=0x7f0a0007;
-        public static final int btn_Contacts=0x7f0a0005;
-        public static final int btn_PhotoWall=0x7f0a0006;
+        public static final int action_add_friend=0x7f0a000b;
+        public static final int action_feedback=0x7f0a000d;
+        public static final int action_group_chat=0x7f0a000a;
+        public static final int action_scan=0x7f0a000c;
+        public static final int action_search=0x7f0a0009;
+        public static final int btn_treeview=0x7f0a0006;
         public static final int id_indicator_four=0x7f0a0004;
         public static final int id_indicator_one=0x7f0a0001;
         public static final int id_indicator_three=0x7f0a0003;
         public static final int id_indicator_two=0x7f0a0002;
         public static final int id_viewpager=0x7f0a0000;
+        public static final int iv_item_icon=0x7f0a0007;
+        public static final int lv=0x7f0a0005;
+        public static final int tv_item_text=0x7f0a0008;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int fragment_first=0x7f030001;
-        public static final int fragment_forth=0x7f030002;
-        public static final int fragment_second=0x7f030003;
-        public static final int fragment_third=0x7f030004;
+        public static final int activity_treeview=0x7f030001;
+        public static final int fragment_first=0x7f030002;
+        public static final int fragment_forth=0x7f030003;
+        public static final int fragment_second=0x7f030004;
+        public static final int fragment_third=0x7f030005;
+        public static final int list_item_treeview=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f090000;
