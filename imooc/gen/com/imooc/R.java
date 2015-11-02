@@ -28,6 +28,16 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int icon=0x7f010000;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rightPadding=0x7f010004;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -69,43 +79,60 @@ containing a value of this type.
         public static final int ic_menu_emoticons=0x7f020004;
         public static final int ic_menu_friendslist=0x7f020005;
         public static final int ic_menu_start_conversation=0x7f020006;
-        public static final int imooc_logo=0x7f020007;
-        public static final int men_scan_icon=0x7f020008;
-        public static final int menu_add_icon=0x7f020009;
-        public static final int menu_feedback_icon=0x7f02000a;
-        public static final int menu_group_chat_icon=0x7f02000b;
-        public static final int tab_address_normal=0x7f02000c;
-        public static final int tab_bg=0x7f02000d;
-        public static final int tab_find_frd_normal=0x7f02000e;
-        public static final int tab_settings_normal=0x7f02000f;
-        public static final int tab_weixin_normal=0x7f020010;
-        public static final int tree_ec=0x7f020011;
-        public static final int tree_ex=0x7f020012;
+        public static final int img_1=0x7f020007;
+        public static final int img_2=0x7f020008;
+        public static final int img_3=0x7f020009;
+        public static final int img_4=0x7f02000a;
+        public static final int img_5=0x7f02000b;
+        public static final int img_frame_background=0x7f02000c;
+        public static final int imooc_logo=0x7f02000d;
+        public static final int men_scan_icon=0x7f02000e;
+        public static final int menu_add_icon=0x7f02000f;
+        public static final int menu_feedback_icon=0x7f020010;
+        public static final int menu_group_chat_icon=0x7f020011;
+        public static final int qq=0x7f020012;
+        public static final int tab_address_normal=0x7f020013;
+        public static final int tab_bg=0x7f020014;
+        public static final int tab_find_frd_normal=0x7f020015;
+        public static final int tab_settings_normal=0x7f020016;
+        public static final int tab_weixin_normal=0x7f020017;
+        public static final int tree_ec=0x7f020018;
+        public static final int tree_ex=0x7f020019;
     }
     public static final class id {
-        public static final int action_add_friend=0x7f0a000b;
-        public static final int action_feedback=0x7f0a000d;
-        public static final int action_group_chat=0x7f0a000a;
-        public static final int action_scan=0x7f0a000c;
-        public static final int action_search=0x7f0a0009;
-        public static final int btn_treeview=0x7f0a0006;
+        public static final int action_add_friend=0x7f0a0013;
+        public static final int action_feedback=0x7f0a0015;
+        public static final int action_group_chat=0x7f0a0012;
+        public static final int action_scan=0x7f0a0014;
+        public static final int action_search=0x7f0a0011;
+        public static final int btn_QQSlidingMenu=0x7f0a0008;
+        public static final int btn_treeview=0x7f0a0007;
+        public static final int id_img1=0x7f0a000a;
+        public static final int id_img2=0x7f0a000b;
+        public static final int id_img3=0x7f0a000c;
+        public static final int id_img4=0x7f0a000d;
+        public static final int id_img5=0x7f0a000e;
         public static final int id_indicator_four=0x7f0a0004;
         public static final int id_indicator_one=0x7f0a0001;
         public static final int id_indicator_three=0x7f0a0003;
         public static final int id_indicator_two=0x7f0a0002;
+        public static final int id_menu=0x7f0a0005;
         public static final int id_viewpager=0x7f0a0000;
-        public static final int iv_item_icon=0x7f0a0007;
-        public static final int lv=0x7f0a0005;
-        public static final int tv_item_text=0x7f0a0008;
+        public static final int iv_item_icon=0x7f0a000f;
+        public static final int lv=0x7f0a0006;
+        public static final int rl_1=0x7f0a0009;
+        public static final int tv_item_text=0x7f0a0010;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int activity_treeview=0x7f030001;
-        public static final int fragment_first=0x7f030002;
-        public static final int fragment_forth=0x7f030003;
-        public static final int fragment_second=0x7f030004;
-        public static final int fragment_third=0x7f030005;
-        public static final int list_item_treeview=0x7f030006;
+        public static final int activity_qq_slidingmenu=0x7f030001;
+        public static final int activity_treeview=0x7f030002;
+        public static final int fragment_first=0x7f030003;
+        public static final int fragment_forth=0x7f030004;
+        public static final int fragment_second=0x7f030005;
+        public static final int fragment_third=0x7f030006;
+        public static final int left_menu_qq_slidingmenu=0x7f030007;
+        public static final int list_item_treeview=0x7f030008;
     }
     public static final class menu {
         public static final int main=0x7f090000;
@@ -229,5 +256,34 @@ containing a value of this type.
           @attr name com.imooc:text_size
         */
         public static final int ChangeColorIconWithText_text_size = 3;
+        /** Attributes that can be used with a QQSlidingMenu.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #QQSlidingMenu_rightPadding com.imooc:rightPadding}</code></td><td></td></tr>
+           </table>
+           @see #QQSlidingMenu_rightPadding
+         */
+        public static final int[] QQSlidingMenu = {
+            0x7f010004
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.imooc.R.attr#rightPadding}
+          attribute's value can be found in the {@link #QQSlidingMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.imooc:rightPadding
+        */
+        public static final int QQSlidingMenu_rightPadding = 0;
     };
 }

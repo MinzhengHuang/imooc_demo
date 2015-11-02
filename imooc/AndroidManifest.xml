@@ -26,6 +26,9 @@
         </activity>
         <activity android:name="com.imooc.TreeViewActivity" >
         </activity>
+        
+        <activity android:name="com.imooc.QQSlidingMenuActivity" >
+        </activity>
     </application>
     
     

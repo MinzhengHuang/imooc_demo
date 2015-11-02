@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
+import com.imooc.QQSlidingMenuActivity;
 import com.imooc.R;
 import com.imooc.TreeViewActivity;
 
@@ -18,6 +19,7 @@ public class FirstFragment extends Fragment implements OnClickListener{
 			Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_first, container, false);
 		view.findViewById(R.id.btn_treeview).setOnClickListener(this);
+		view.findViewById(R.id.btn_QQSlidingMenu).setOnClickListener(this);
 		return view;
 
 	}
@@ -28,6 +30,9 @@ public class FirstFragment extends Fragment implements OnClickListener{
 		switch (v.getId()) {
 		case R.id.btn_treeview:
 			intent=new Intent(getActivity(), TreeViewActivity.class);
+			break;
+		case R.id.btn_QQSlidingMenu:
+			intent=new Intent(getActivity(), QQSlidingMenuActivity.class);
 			break;
 		default:
 			break;
