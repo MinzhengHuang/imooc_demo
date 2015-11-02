@@ -22,5 +22,9 @@
         android:id="@+id/btn_QQSlidingMenu"
         style="@style/btn_style"
         android:text="QQSlidingMenu" />
+    <Button
+        android:id="@+id/btn_Mooo"
+        style="@style/btn_style"
+        android:text="Mooo" />
 
 </LinearLayout>
