@@ -1,2 +1,5 @@
+.gitignore
 imooc/build/*
 imooc/.idea/*
+imooc/.gradle/*
+
