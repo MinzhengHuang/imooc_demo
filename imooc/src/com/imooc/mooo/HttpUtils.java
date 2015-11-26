@@ -1,5 +1,8 @@
 package com.imooc.mooo;
 
+import com.google.gson.Gson;
+import com.imooc.mooo.ChatMessage.Type;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,10 +11,6 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URLEncoder;
 import java.util.Date;
-
-import com.google.gson.Gson;
-import com.google.gson.JsonSyntaxException;
-import com.imooc.mooo.ChatMessage.Type;
 
 public class HttpUtils {
 	private static final String URL = "http://www.tuling123.com/openapi/api";
@@ -66,19 +65,16 @@ public class HttpUtils {
 			e.printStackTrace();
 		} finally {
 			try {
-				if (baos != null)
+				if (baos != null){
 					baos.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-
-			try {
+				}
 				if (is != null) {
 					is.close();
 				}
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+
 		}
 		return result;
 	}
