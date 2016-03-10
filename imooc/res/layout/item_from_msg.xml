@@ -27,13 +27,13 @@
             <ImageView
                 android:layout_width="49dp"
                 android:layout_height="49dp"
-                android:src="@drawable/jyy" />
+                android:src="@drawable/hmz" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="蒋亚运"
+                android:text="Hmz"
                 android:visibility="gone"
                 android:textSize="18sp" >
             </TextView>
