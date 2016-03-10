@@ -8,9 +8,14 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Toast;
-
 import com.imooc.view.QQSlidingMenu;
 
+/**
+ * Android DrawerLayout 高仿QQ5.2双向侧滑菜单
+ *
+ * http://blog.csdn.net/lmj623565791/article/details/41531475
+ *
+ */
 public class QQSlidingMenuActivity extends Activity implements OnClickListener{
 
 	private QQSlidingMenu mLeftMenu;

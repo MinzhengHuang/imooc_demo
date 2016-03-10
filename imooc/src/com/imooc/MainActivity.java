@@ -1,16 +1,13 @@
 package com.imooc;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.List;
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -23,6 +20,11 @@ import com.imooc.fragment.SecondFragment;
 import com.imooc.fragment.ThirdFragment;
 import com.imooc.view.ChangeColorIconWithText;
 
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends FragmentActivity implements OnClickListener,
 		OnPageChangeListener {
 
@@ -33,6 +35,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 	private FragmentPagerAdapter mAdapter;
 
 	private List<ChangeColorIconWithText> mTabIndicators = new ArrayList<ChangeColorIconWithText>();
+//	public static final int FLAG_HOMEKEY_DISPATCHED = 0x80000000; //需要自己定义标志
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +48,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 		initDatas();
 		mViewPager.setAdapter(mAdapter);
 		initEvent();
+//		this.getWindow().setFlags(FLAG_HOMEKEY_DISPATCHED, FLAG_HOMEKEY_DISPATCHED);//关键代码
 
 	}
 
@@ -217,6 +221,18 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 	public void onPageScrollStateChanged(int state) {
 		// TODO Auto-generated method stub
 
+	}
+
+	@Override
+	public boolean onKeyDown( int keyCode, KeyEvent event) {
+		// TODO Auto-generated method stub
+		Log.i("main","onKeyDown");
+		Log.i("main","keyCode="+keyCode);
+		if (keyCode == event. KEYCODE_HOME) {
+			Log.i("main","home");
+			return true;
+		}
+		return super.onKeyDown(keyCode, event);
 	}
 
 }

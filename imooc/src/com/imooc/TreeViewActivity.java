@@ -1,8 +1,5 @@
 package com.imooc;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -22,6 +19,15 @@ import com.imooc.treeview.OrgBean;
 import com.imooc.treeview.SimpleTreeListViewAdapter;
 import com.imooc.treeview.TreeListViewAdapter.OnTreeNodeClickListener;
 
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Android 打造任意层级树形控件 考验你的数据结构和设计
+ *
+ * http://blog.csdn.net/lmj623565791/article/details/40212367
+ *
+ */
 public class TreeViewActivity extends Activity {
 
 	private ListView mlvTree;
