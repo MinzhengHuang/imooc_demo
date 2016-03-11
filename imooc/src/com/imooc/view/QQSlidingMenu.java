@@ -27,7 +27,6 @@ public class QQSlidingMenu extends HorizontalScrollView {
 	/**
 	 * 未使用自定义属性时，调用
 	 * @param context
-	 * @param attrs
 	 */
 	public QQSlidingMenu(Context context) {
 		this(context, null);
@@ -66,7 +65,9 @@ public class QQSlidingMenu extends HorizontalScrollView {
 
 	}
 
-	//获取屏幕的宽度
+	/**
+	 * 获取屏幕的宽度
+	 */
 	private void getWindowWidth(Context context) {
 		WindowManager wm = (WindowManager) context
 				.getSystemService(Context.WINDOW_SERVICE);

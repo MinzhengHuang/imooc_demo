@@ -19,11 +19,19 @@ public class FirstFragment extends Fragment implements OnClickListener{
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_first, container, false);
+		initView(view);
+		return view;
+
+	}
+
+	/**
+	 * 初始化控件
+	 * @param view
+	 */
+	private void initView(View view) {
 		view.findViewById(R.id.btn_treeview).setOnClickListener(this);
 		view.findViewById(R.id.btn_QQSlidingMenu).setOnClickListener(this);
 		view.findViewById(R.id.btn_Mooo).setOnClickListener(this);
-		return view;
-
 	}
 
 	@Override
