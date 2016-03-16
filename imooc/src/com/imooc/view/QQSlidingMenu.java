@@ -27,7 +27,6 @@ public class QQSlidingMenu extends HorizontalScrollView {
 	/**
 	 * 未使用自定义属性时，调用
 	 * @param context
-	 * @param attrs
 	 */
 	public QQSlidingMenu(Context context) {
 		this(context, null);
